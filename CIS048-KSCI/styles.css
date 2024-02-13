@@ -1,0 +1,124 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.header-container {
+    background-color: #00205B;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header-content {
+    text-align: right;
+}
+
+nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.sidebar {
+    background-color: #00205B;
+    color: #fff;
+    width: 250px;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    flex-grow: 1;
+}
+
+.memtitle {
+    color: #00205B;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.prettytext {
+    margin-top: 20px;
+}
+
+.calendar {
+	float: right; 
+	width: 200px; 
+	border: 1px solid #ccc; 
+	padding: 10px;
+}
+
+.footer {
+    background-color: #00205B;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    background-color: #00205B;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #001633;
+}
+
+button:focus {
+    outline: none;
+}
+
+.blue-box {
+    background-color: #00205B;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.grey-box {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
